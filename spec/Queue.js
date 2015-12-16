@@ -1,6 +1,7 @@
 /* global Queue, describe, it, expect, should */
 
 describe('Queue()', function() {
+  'use strict';
   var queue;
   beforeEach(function() {
     queue = new Queue();
