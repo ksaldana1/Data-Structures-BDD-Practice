@@ -4,7 +4,7 @@ describe('LinkedList()', function() {
   'use strict';
   var linkedList;
   beforeEach(function() {
-    linkedList = LinkedList();
+    linkedList = new LinkedList();
   });
 
   it('Constructor function creates object', function() {
@@ -17,9 +17,9 @@ describe('LinkedList()', function() {
   });
 
   it('Should have methods: addToTail(), removeHead(), contains()', function() {
-    expect(linkedList.addToTail()).to.be.a('function');
-    expect(linkedList.removeHead()).to.be.a('function');
-    expect(linkedList.contains()).to.be.a('function');
+    expect(linkedList.addToTail).to.be.a('function');
+    expect(linkedList.removeHead).to.be.a('function');
+    expect(linkedList.contains).to.be.a('function');
   });
 
   it('Should assign tail to newly added node', function() {
