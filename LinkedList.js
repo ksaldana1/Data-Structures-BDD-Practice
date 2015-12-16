@@ -1,4 +1,4 @@
-/*! Linked List v0.0.0 - MIT license */
+/*! Linked List v1.0.0 - MIT license */
 'use strict';
 
 // Linked List constructor
