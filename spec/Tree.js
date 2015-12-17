@@ -4,7 +4,7 @@ describe('Tree()', function() {
   var tree;
 
   beforeEach(function() {
-    tree = new Tree();
+    tree = new Tree(1);
   });
 
   it('should make a new tree object', function() {
